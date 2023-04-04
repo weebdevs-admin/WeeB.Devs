@@ -1,0 +1,102 @@
+// ____Responsive_____
+@media(min-width:960px){
+    .icon{
+        display: none;
+    }
+    .hamburg__open, .hamburg__close{
+        display: none;
+    }
+    
+}
+@media (max-width:960px){
+    .icon{
+        display: none;
+    }
+    .hamburg__open,.hamburg__close{
+        display: none;
+    }
+}
+@media (max-width:700px){
+    .banner{
+        background-position:  right bottom;
+        background-image: url('./Assets/media/image/mobile_bg.jpg') !important;
+
+        
+    }
+    .navbar__item{
+        display: none;
+    }
+    .logo__item{
+        width: 90px;
+    }
+    .icon{
+        display: block;
+        color: white;
+        font-size: 50px;
+        cursor: pointer;
+    }
+    .hamburg__close{
+        display: none;
+    }
+    .hamburg__open{
+        display: block;
+        height: 100vh;
+        margin: 0 auto;
+        margin-top: 70px;
+        width: 90%;
+        position: absolute;
+        backdrop-filter: blur(70px);
+        right: 0;
+        bottom: 0;
+        .hamburg__nav{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 20px;
+            h2{
+                font-size: 35px;
+                color:white;
+
+            }
+            
+        }
+        .list{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 50px;
+            li{
+                margin: 5px;
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .main__title {
+        text-align: center;
+        font-size: 43px !important;
+        margin-top: 14vh !important;
+    }
+    .main__desc{
+        width: 90% !important;
+        font-weight: 500;
+        font-size: 22px;
+        color:white;
+        margin-left: 0px;
+        text-align: center !important;
+        margin-top: 20px;
+    }
+    .main__btn{
+        position:absolute;
+        margin: 0 auto !important;
+        bottom: 10%;
+        left: 0;
+        right: 0;
+    }
+}
+@media(max-width:300px){
+    .hamburg__nav h2{
+        display: none;
+    }
+}
